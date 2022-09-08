@@ -21,4 +21,5 @@ This is not a perfect project, and I already have ideas for refinement (only tra
 optimizing hyperparameters, and gathering spectra in a more thorough way). But I am pleased with the result and my lab group will be continuing the study
 of mixture prediction.
 
-This repository contains the Jupyter notebook of my code, the CSV of concentrations created in Mathematica, and all 3000 of my calculations.
+This repository contains the Jupyter notebook of my Python code, the CSV of concentrations created in Mathematica, the pure molecular geometry
+of water, ethanol, and methanol. The data regarding all 3000 calculated data points is available upon request.
