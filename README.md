@@ -3,9 +3,13 @@
 **Files:**
 
 Non-PCM - Data for non-PCM spectra
+
 PCM - Python scripts to submit Gaussian jobs en masse and notebook for machine learning with PCM/non-PCM data
+
 data_coll_automation - Python scripts to send GCode and startup the Ender for liquid handling
+
 Concentrations.csv - Randomly generated concentrations
+
 .txt files - Optimized geometries of water, methanol, ethanol
 
 **Summary:**
