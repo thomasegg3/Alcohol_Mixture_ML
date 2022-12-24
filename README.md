@@ -1,4 +1,15 @@
 # Alcohol_Mixture_ML
+
+**Files:**
+
+Non-PCM - Data for non-PCM spectra
+
+PCM - Python scripts to submit Gaussian jobs en masse and notebook for machine learning with PCM/non-PCM data
+
+data_coll_automation - Python scripts to send GCode and startup the Ender for liquid handling
+
+**Summary:**
+
 This project has been a significant part of my undergraduate computational chemistry research. 
 I utilize high-performance-computing and Python code/scikit-learn in order to train several models that can predict the 
 concentration of a three component mixture based on a given IR spectrum. 
