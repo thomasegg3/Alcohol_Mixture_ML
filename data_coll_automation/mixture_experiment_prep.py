@@ -10,7 +10,7 @@ import pandas as pd
 
 #Function to prepare uniformly distributed points in given n-dimensional convex hull
 #Credit to Daniel F on StackOverflow for the function idea/sample code!
-def generate_points(points, n, n_components):
+def generate_points(points, n):
     dimension = points.shape[-1]
     c_hull = points[ConvexHull(points).vertices]
     delaunay_sim = c_hull[Delaunay(c_hull).simplices]
