@@ -27,7 +27,7 @@ To enhance the thorougness of our models and research, we introduced the effect 
 
 Finally, after obtaining vibrational frequency calculations for every mixture, I exported these values into a Jupyter notebook. I wrote several 
 functions that turn frequencies and energies into neat spectra, like the spectra that can be gathered manually with a spectrophotometer in a lab
-except these are all simulated! With the points of these simulated spectra, I created a numpy array of dimensions 3000 x 1000. Each point is a 
+except these are all simulated! With the points of these simulated spectra, I created a numpy array of dimensions 1000 x 3000. Each point is a 
 "feature" in my model. I simulate noise using a function that adds a noise factor to each data point that is a random value between -0.05 and +0.05.
 
 I was able to train three models (Linear Regression (RIDGE), Decision Tree, and Random Forest that all boast predictive accuracy of over 90%. 
